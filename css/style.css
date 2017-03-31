@@ -1,0 +1,66 @@
+/*--------Importation police ----------*/
+
+@font-face {
+  font-family: "lucidaconsole";
+  src: url("./font/lucida-console.eot");
+  src: url("./font/lucida-console.eot?#iefix") format("embedded-opentype"),
+       url("./font/lucida-console.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*-------------- CSS GENERAL ------------ */
+
+body {
+    background-color: #000000;
+}
+
+.console {
+    font-family: lucidaconsole, monospace;
+    font-size: 12px;
+    color: white;
+    background: #000000;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+
+#terminal {
+    font-family: lucidaconsole, monospace;
+    font-size: 12px;
+    color: white;
+    background: #000000;
+    border: none;
+    padding: 0px;
+    outline: none;
+    width:500px;
+    height: 12px;
+}
+
+
+#resultat {
+    font-family: lucidaconsole, monospace;
+    color: white;
+    font-size: 12px;
+    background: #000000;
+    border: none;
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a[href="https://fr.linkedin.com/in/alexandremasse"] {
+    color: #1984BC;
+}
+
+a[href="https://twitter.com/Alexandre_Masse"] {
+    color: #1DA1F2;
+}
+
+a[href="./pdf/CV.pdf"], a[href="mailto:alexandre.masse94@gmail.com"] {
+    color: #668EAA;
+}
+
