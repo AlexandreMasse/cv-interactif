@@ -13,11 +13,12 @@
 
 body {
     background-color: #000000;
+    padding: 5px;
 }
 
 .console {
     font-family: lucidaconsole, monospace;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     background: #000000;
     border: none;
